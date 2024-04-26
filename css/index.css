@@ -1,0 +1,42 @@
+body {
+/*Imagen de Fondo*/
+background-image: url(../assets/fondito1.jpg);
+/*No repetir Imagen*/
+background-repeat: no-repeat;
+/*Ocupar todo*/
+background-size: cover;
+}
+
+h1 {
+/*Color de Letra*/    
+color: #1f1f85;
+/*Color de Fondo*/
+background-color: #00afaf;
+/*Largo*/
+width: fit-content;
+/*Relleno*/
+padding: 5px 10px;
+/*Margen*/
+margin-left: 20px;
+}
+
+p {
+color: red;
+/*Tamaño de Letra*/
+font-size: 22px;
+/*Grosor*/
+font-weight: 900;
+}
+
+/*Clases*/
+.navegar {
+/*Familia de la fuente*/
+font-family:'Lucida Sans Regular';
+font-size: 19px;
+/*Estilo*/
+font-style: italic;
+}
+
+a {
+color: black;
+}
