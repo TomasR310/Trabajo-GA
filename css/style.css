@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+/*Imagen de Fondo*/
+background-image: url(../assets/fondito1.jpg);
+/*No repetir Imagen*/
+background-repeat: no-repeat;
+/*Tamaño de Fondo*/
+background-size: cover;
+}
+
+h1 {
+/*Color de Letra*/    
+color: #1f1f85;
+/*Color de Fondo*/
+background-color: #00afaf;
+/*Ancho*/
+width: fit-content;
+/*Relleno*/
+padding: 5px 10px;
+/*Margen*/
+margin: 10px 20px;
+/*Borde*/
+border-radius: 15px;
+/*Familia (Fuente)*/
+font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+color: #adabff;
+/*Tamaño de Letra*/
+font-size: 22px;
+/*Grosor*/
+font-weight: 400;
+/*Fuente Personalizada*/
+font-family: "Kanit", sans-serif;
+width: fit-content;
+margin-left: 10px;
+}
+
+/*Clases*/
+.navegar {
+font-family:'Lucida Sans Regular';
+font-size: 19px;
+/*Estilo de fuente*/
+font-style: italic;
+margin-left: 8px;
+margin-top: 15px;
+}
+
+#img {
+margin-left: 6px;
+}
+
+a {
+color: #202020;
+}
+
+button {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+padding: 0 8px;
+border: 3px solid #2e2e46;
+border-radius: 20px;
+width: fit-content;
+margin-left: 8px;
+}
+
+.Cuenta_GitHub{
+color:#1c6d88;
+}
+
+h2 {
+font-family: "Manrope", sans-serif;
+}
+
+#RepositorioGit {
+color:#004e1a;
+}
+
+section {
+margin-top: 10px;
+}
+
+footer {
+margin-left: 10px;
+}

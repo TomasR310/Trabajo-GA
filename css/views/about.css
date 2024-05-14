@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+    /*Imagen de Fondo*/
+    background-image: url(../../assets/fondito1.jpg);
+    /*No repetir Imagen*/
+    background-repeat: no-repeat;
+    /*Tamaño de Fondo*/
+    background-size: cover;
+    }
+
+    nav {
+    display: flex;
+    }
+
+    .info {
+    display: grid;
+    }
+
+    .des1 {
+    background-color: red;
+    }
+
+    .des2 {
+    background-color: yellow;
+    }
+
+    .des3 {
+    background-color: rosybrown;
+    }
