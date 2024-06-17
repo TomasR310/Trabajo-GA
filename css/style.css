@@ -7,54 +7,43 @@ box-sizing: border-box;
 }
 
 body {
-/*Imagen de Fondo*/
 background-image: url(../assets/fondito1.jpg);
-/*No repetir Imagen*/
 background-repeat: no-repeat;
-/*Tamaño de Fondo*/
 background-size: cover;
 }
 
-h1 {
-/*Color de Letra*/    
+h1 {   
 color: #1f1f85;
-/*Color de Fondo*/
 background-color: #00afaf;
-/*Ancho*/
 width: fit-content;
-/*Relleno*/
 padding: 5px 10px;
-/*Margen*/
 margin: 10px 20px;
-/*Borde*/
 border-radius: 15px;
-/*Familia (Fuente)*/
 font-family:Arial, Helvetica, sans-serif;
 }
 
 p {
 color: #adabff;
-/*Tamaño de Letra*/
 font-size: 22px;
-/*Grosor*/
 font-weight: 400;
-/*Fuente Personalizada*/
 font-family: "Kanit", sans-serif;
 width: fit-content;
 margin-left: 10px;
 }
 
-/*Clases*/
 .navegar {
 font-family:'Lucida Sans Regular';
 font-size: 19px;
-/*Estilo de fuente*/
 font-style: italic;
 margin-left: 8px;
 margin-top: 15px;
 }
 
-#img {
+img {
+max-width: 99%;
+}
+
+figure {
 margin-left: 6px;
 }
 

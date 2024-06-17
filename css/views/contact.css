@@ -1,0 +1,154 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/******************************/
+/******************************/
+/******************************/
+/********** Desktop ***********/
+/******************************/
+/******************************/
+/******************************/
+
+body {
+/*Imagen de Fondo*/
+background-image: url(../../assets/fondito1.jpg);
+/*No repetir Imagen*/
+background-repeat: no-repeat;
+/*Tamaño de Fondo*/
+background-size: cover;
+}
+
+/*Estilos de Etiqueta "li" quitados*/
+li {
+list-style: none;
+}
+
+/*Color y Remarcado de Etiqueta "a"*/
+a {
+text-decoration: none;
+color: #000000;
+}
+
+/*Aplicar Flexbox al Header y sus nieto ul*/
+header, nav ul{
+display: flex;
+justify-content: space-between;
+gap: 80px;
+font-size: 30px;
+}
+
+/*Expecificaciones del Flexbox Header*/
+header {
+align-items: center;
+background-color: brown;
+margin: 5px;
+}
+
+/*Tamaño Fijo de la imagen y su contenedor*/
+figure, .logo{
+height: 120px;
+}
+
+/*Tamaño Fijo de la imagen*/
+.menu {
+visibility: hidden;
+width: 50px;
+height: 50px;
+margin:10px;
+}
+
+/**/
+.content{
+display: flex;
+gap: 50px;
+padding: 0 10px;
+height: 74vh;
+justify-content: center;
+}
+
+.content article, .content aside {
+width: 35%;
+}
+
+article {
+background-color: red;
+
+}
+
+aside {
+background-color: yellow;
+
+}
+
+footer{
+text-align: center;
+padding: 20px;
+}
+
+/******************************/
+/******************************/
+/******************************/
+/********** Tablet ***********/
+/******************************/
+/******************************/
+/******************************/
+
+@media(max-width: 804px) {
+    header, nav ul{
+    gap: 20px;
+    font-size: 28px;
+    }
+
+    figure, .logo{
+    width: 110px;
+    height: 110px;
+    }
+
+    .content{
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    }
+
+    .content article, .content aside {
+    width: 80%;
+    height: 100%;
+    background-color: #5a1515;
+    border: 10px outset #b9b938;
+    }
+
+    .content article{
+    border-bottom-style: hidden;
+    }
+
+    .content aside {
+    border-top-style: hidden;
+    }
+}
+
+/******************************/
+/******************************/
+/******************************/
+/********** Mobile ***********/
+/******************************/
+/******************************/
+/******************************/
+    
+@media(max-width: 600px) {
+    nav {
+    display: none;
+    }
+
+    figure, .logo{
+    width: 100px;
+    height: 100px;
+    }
+
+    .menu {
+    visibility: visible;  
+    }
+
+}
